@@ -1,5 +1,4 @@
 use std::env;
-use read_input::prelude::*;
 
 fn main() {
     let input = env::args().collect::<Vec<String>>()[1..].join(" ");
